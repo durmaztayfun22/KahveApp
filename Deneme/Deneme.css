@@ -1,0 +1,55 @@
+/* deneme.css */
+
+/* Genel sayfa stilleri */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  div {
+    display: flex;
+    flex-direction: column; /* Inputları dikey hizala */
+    align-items: center; /* Dikey eksende ortala */
+  }
+  /* Nescafe butonu stilleri */
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  /* Resim stilleri */
+  img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  
+  /* Label stilleri */
+  label {
+    font-weight: bold;
+  }
+  
+  /* Input stilleri */
+  input {
+    padding: 8px;
+    margin-bottom: 20px; /* 20px boşluk ekledik */
+    display: block; /* Inputları blok element olarak ayarladık */
+  }
+  
+  /* Kontrol et butonu stilleri */
+  button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Sonuç etiketi stilleri */
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+  }
+  
